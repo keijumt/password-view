@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <com.keijumt.passwordview.PasswordView
+        android:id="@+id/password_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:password_between_margin="32dp"
+        app:password_correct_color="#00A54E"
+        app:password_count="4"
+        app:password_incorrect_color="#D51731" />
+
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:columnCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password_view">
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="2"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="4"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="5"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_6"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="6"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_7"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="7"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_8"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="8"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_9"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="9"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_0"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:layout_column="1"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="@dimen/input_button_text_size" />
+
+        <TextView
+            android:id="@+id/text_d"
+            android:layout_width="@dimen/input_button_width"
+            android:layout_height="@dimen/input_button_height"
+            android:layout_column="2"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:text="D"
+            android:textSize="@dimen/input_button_text_size" />
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

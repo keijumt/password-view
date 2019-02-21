@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordView">
+        <attr name="password_count" format="integer" />
+        <attr name="password_radius" format="dimension" />
+        <attr name="password_between_margin" format="dimension" />
+        <attr name="password_input_color" format="color" />
+        <attr name="password_not_input_color" format="color" />
+        <attr name="password_outline_color" format="color" />
+        <attr name="password_correct_color" format="color" />
+        <attr name="password_incorrect_color" format="color" />
+        <attr name="password_correct_duration" format="integer" />
+        <attr name="password_incorrect_duration" format="integer" />
+        <attr name="password_color_change_duration" format="integer" />
+        <attr name="password_input_and_remove_duration" format="integer" />
+        <attr name="password_correct_top" format="dimension" />
+        <attr name="password_correct_bottom" format="dimension" />
+        <attr name="password_incorrect_max_width" format="dimension" />
+        <attr name="password_outline_stroke_width" format="dimension" />
+    </declare-styleable>
+</resources>
