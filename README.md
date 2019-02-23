@@ -1,6 +1,9 @@
 # password-view
 Android password animation  
  <img src="art/password-view.gif" />
+ 
+## Sample
+<img src="art/sample.gif" width="640"/>
 
 ## Useage
 
