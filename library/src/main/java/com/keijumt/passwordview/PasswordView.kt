@@ -62,7 +62,7 @@ class PasswordView @JvmOverloads constructor(
     private val betweenMargin =
         array.getDimensionPixelOffset(R.styleable.PasswordView_password_between_margin, DEFAULT_BETWEEN_MARGIN)
     private val inputColor = array.getColor(R.styleable.PasswordView_password_input_color, DEFAULT_INPUT_COLOR)
-    private val notInputColor = array.getColor(R.styleable.PasswordView_password_input_color, DEFAULT_NOT_INPUT_COLOR)
+    private val notInputColor = array.getColor(R.styleable.PasswordView_password_not_input_color, DEFAULT_NOT_INPUT_COLOR)
     private val outlineColor = array.getColor(R.styleable.PasswordView_password_outline_color, DEFAULT_OUTLINE_COLOR)
     private val correctColor = array.getColor(R.styleable.PasswordView_password_correct_color, DEFAULT_CORRECT_COLOR)
     private val incorrectColor =
